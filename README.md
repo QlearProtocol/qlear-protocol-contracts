@@ -4,8 +4,6 @@
 <a href="https://www.reddit.com/r/QlearProtocol/" target="_blank"><img src="https://img.shields.io/badge/reddit--blue.svg?longCache=true&style=popout-square"></a>
 
 
-
-
 The Ethereum contracts for the [Qlear Protocol](https://qlear.com) token  (QLEAR) and token distribution.
 
 ![Qlear Protocol](qlear_cover.png)
