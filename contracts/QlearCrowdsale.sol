@@ -19,11 +19,9 @@ contract QlearCrowdsale is Ownable, HasNoEther, HasNoContracts, CanReclaimToken,
     mapping(address => uint256) distributed;
 
     uint256 public tokensMinted;
-    uint256 public tokensCap;
+    uint256 public tokensCap = 1000000000000000000000000000;
 
-    constructor(uint256 _tokensCap) public {
-        require(_tokensCap > 0);
-        tokensCap = _tokensCap;
+    constructor() public {
         token = new QlearToken();
         token.setFounder(owner);
         token.setTransferEnabled(false);
